@@ -1,12 +1,10 @@
 package com.cybertek.mapper;
 
-import com.cybertek.dto.RoleDTO;
 import com.cybertek.dto.UserDTO;
 import com.cybertek.entity.User;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
-import javax.management.relation.Role;
 
 @Component
 public class UserMapper {
